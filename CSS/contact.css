@@ -1,0 +1,271 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "montserrat", sans-serif;
+}
+
+.container-1{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5% 0 5%;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column ;
+    list-style: none;
+     
+}
+
+header nav ul li{
+    display: flex;
+    gap: 17px;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none; 
+    font-family: "khula", sans-serif;
+    font-weight:750;
+    font-size: 18px;
+    font-style: normal;
+    transition: ease-in-out 0.5s;
+}
+
+header nav ul li a:hover{
+    color: #2d74ba;
+}
+
+#book-now-btn{
+    height: 40px;
+    width: 160px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2d74ba;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.intro{
+    height: 400px;
+    text-align: center;
+    background: url("../media/hero/about.png");
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.intro h1{
+    font-size: 40px;
+}
+
+.intro a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cc{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+}
+
+.form{
+    height: 250px;
+    width:600px;
+    background-color: #fff;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 130px;
+    background-color: #f0f7ff;
+    font-size: 12px;
+    font-family: sans-serif;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:nth-child(3){
+    width: 140px;
+}
+button:nth-child(8){
+    width: 140px;
+}
+
+.cc img{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    bottom: 110px;
+}
+
+.get-help{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.get-help input{
+    height: 40px;
+    background-color: #fff;
+    padding-left: 10px;
+    border-color: #040408;
+}
+
+#submit{
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 130px;
+    background-color: #2d74ba;
+    font-size: 12px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.info-boxes {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-box {
+    height: 150px;
+    width: 300px;
+  background-color: #eaf4ff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.info-box:hover{
+    color: #fff;
+    background-color: #2563eb;
+}
+
+.info-box img{
+    width: fit-content;
+    height: fit-content;
+    color: #2563eb;
+}
+
+.info-title {
+  color: #2563eb;
+  font-size: 23px;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.info-title:hover{
+    color: #fff;
+}
+
+footer{
+    height: 300px;
+    padding: 30px 5% 0 5%;
+    background-color: #2d74ba;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.side-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-1-img img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email-form input{
+   height: 40px;
+   width: 250px;
+   border: none;
+   border-radius: 8px;
+}
+
+.pieces{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.pieces a{
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 17px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: baseline;
+}
+
+.contact-info img{
+    height: fit-content;
+    width: fit-content;
+}

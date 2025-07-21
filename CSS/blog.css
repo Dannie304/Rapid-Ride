@@ -1,0 +1,198 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "montserrat", sans-serif;
+}
+
+.container-1{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5% 0 5%;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column ;
+    list-style: none;
+     
+}
+
+header nav ul li{
+    display: flex;
+    gap: 17px;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none; 
+    font-family: "khula", sans-serif;
+    font-weight:750;
+    font-size: 18px;
+    font-style: normal;
+    transition: ease-in-out 0.5s;
+}
+
+header nav ul li a:hover{
+    color: #2d74ba;
+}
+
+#book-now-btn{
+    height: 40px;
+    width: 160px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2d74ba;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.intro{
+    height: 400px;
+    text-align: center;
+    background: url("../media/hero/about.png");
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.intro h1{
+    font-size: 40px;
+}
+
+.intro a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 50px;
+align-items: center;
+padding: 1rem;
+width: 100%;
+height: 800px;
+padding-top: 5%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.our-dev {
+ background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding: 2rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 24rem; 
+    margin-left: auto; 
+    margin-right: auto;      
+}
+
+.our-dev img {
+    width: 10rem; 
+    height: 10rem;
+    border-radius: 9999px; 
+    object-fit: cover;
+    border: 4px solid #3b82f6;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+    margin-bottom: 1.5rem; 
+}
+
+.our-dev h3 {
+    font-size: 1.875rem; 
+    font-weight: 700; 
+    color: #1f2937; 
+    margin-bottom: 0.5rem;
+}
+
+.our-dev p {
+     font-size: 1.25rem;
+    color: #4b5563; 
+}
+
+footer{
+    height: 300px;
+    padding: 30px 5% 0 5%;
+    background-color: #2d74ba;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.side-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-1-img img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email-form input{
+   height: 40px;
+   width: 250px;
+   border: none;
+   border-radius: 8px;
+}
+
+.pieces{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.pieces a{
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 17px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: baseline;
+}
+
+.contact-info img{
+    height: fit-content;
+    width: fit-content;
+}

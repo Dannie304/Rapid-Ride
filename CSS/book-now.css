@@ -1,0 +1,339 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "montserrat", sans-serif;
+}
+
+.hero{
+background-position: center;
+background-size: 1000px;
+padding: 1px 5% 0 5%;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column ;
+    list-style: none;
+     
+}
+
+header nav ul li{
+    display: flex;
+    gap: 17px;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none; 
+    font-family: "khula", sans-serif;
+    font-weight:750;
+    font-size: 18px;
+    font-style: normal;
+    transition: ease-in-out 0.5s;
+}
+
+header nav ul li a:hover{
+    color: #2d74ba;
+}
+
+#book-now-btn{
+    height: 40px;
+    width: 160px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2d74ba;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.intro{
+    height: 270px;
+    text-align: center;
+    background: url("../media/hero/about.png");
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.intro h1{
+    font-size: 40px;
+}
+
+.intro a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.larger-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 5%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.left-img img{
+    height: 300px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-summary-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  height: 470px;
+}
+
+.summary-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee; /* Light line below title */
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 3px;
+}
+
+.item-description {
+  font-size: 0.85em;
+  color: #888;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #333;
+  font-size: 1em;
+  text-align: right;
+  min-width: 60px; /* Ensure price column has consistent width */
+}
+
+.sub-total .item-name,
+.total .item-name {
+  font-size: 1.1em;
+  color: #222;
+}
+
+.sub-total .item-price,
+.total .item-price {
+  font-size: 1.1em;
+  color: #222;
+}
+
+.summary-separator {
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.discount .item-name {
+  color: #4CAF50; /* Green for positive discounts */
+  font-weight: bold;
+}
+
+.discount .item-price {
+  color: #4CAF50; /* Green for positive discounts */
+  font-weight: bold;
+}
+
+.total .item-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #000;
+}
+
+.total .item-price {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #000;
+}
+
+.book-box{
+    height: 400px;
+    width: 400px;
+    background-color: #e6edf4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-form-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.form-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-field-wrapper {
+  position: relative;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #e6edf4;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't increase total width */
+}
+
+.select-field {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #e6edf4;
+  cursor: pointer;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #888;
+}
+
+/* Optional: You might want to slightly adjust the appearance of datetime-local if needed,
+   but generally the default browser styling is good.
+   For example, to remove the default calendar icon if you wanted to add your own:
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+*/
+.pay{
+    height: 40px;
+    width: 180px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #2d74ba;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+footer{
+    height: 300px;
+    padding: 30px 5% 0 5%;
+    background-color: #2d74ba;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.side-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-1-img img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email-form input{
+   height: 40px;
+   width: 250px;
+   border: none;
+   border-radius: 8px;
+}
+
+.pieces{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.pieces a{
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 17px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: baseline;
+}
+
+.contact-info img{
+    height: fit-content;
+    width: fit-content;
+}
